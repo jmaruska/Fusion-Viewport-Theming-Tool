@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fusion Viewport Theming Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="header-bar">
+        <h1>Fusion Viewport Theming Tool</h1>
+        <div class="bg-picker-row">
+            <span class="bg-picker-label">Set background color</span>
+            <div id="bg-color-picker" title="Set background color"></div>
+        </div>
+    </div>
+    <table>
+        <tbody id="category-table"></tbody>
+    </table>
+
+    <!-- Hidden color input for native color picker -->
+    <input type="color" id="colorPicker" style="display:none;">
+
+    <div id="bg-status" class="status-line"></div>
+
+    <button id="generate-xml">Generate XML</button>
+
+    <textarea id="xml-output" readonly></textarea>
+
+    <div id="palette-popover" style="display:none; position:absolute; z-index:1000;"></div>
+
+</body>
+
+</html>
