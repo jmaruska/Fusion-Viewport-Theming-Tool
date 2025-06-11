@@ -995,15 +995,15 @@ const xmlTemplate = `
     HighLightColorARGB                    = "0.600 0.302 0.345 0.961"
  />
 
-  <!-- adorners seems to primarily be sketch entities? -->
-  <!-- !!hot pink (waiting to see this used)!! -->
+  <!-- adorners seems to primarily be sketch entities? Work planes too? -->
+  <!-- !!hot pink (debugging)!! -->
   <AdornerUnspecifiedColor            ARGB = "1.000 1.000 0.000 0.580"/>
   
   <!-- sketch line selected color -->
-  <AdornerSelectedColor               ARGB = "1.000 0.000 0.835 1.000"/>
+  <AdornerSelectedColor               ARGB = "0.500 0.000 0.835 1.000"/>
   
   <!-- sketch line rollover color -->
-  <AdornerHighlightedColor            ARGB = "1.000 0.894 0.675 0.475"/>
+  <AdornerHighlightedColor            ARGB = "0.500 0.894 0.675 0.475"/>
   
   <!-- used when selecting a constraint, then rolling over it to see what it influences -->
   <AdornerSelectedAndHighlightedColor ARGB = "1.000 0.984 0.710 0.286"/>
